@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos Populares</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+    
+    <header class="barra" id="barra">
+        <h2 class="logo">🎮 Rockstar Wiki</h2>
+        <span class="boton-menu" id="boton-menu">☰</span>
+        <nav class="menu" id="menu">
+            <a href="index.html">Inicio</a>
+            <a href="juegos.html" class="activo">Juegos</a>
+            <a href="historia.html">Historia</a>
+            <a class="boton-contacto" href="index.html#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="seccion gris pantalla" id="juegos">
+            <div class="titulo-seccion oculto">
+                <h2>Catálogo de juegos</h2>
+                <p>Filtra por saga y haz clic en un juego para ver sus datos.</p>
+            </div>
+
+            <div class="filtros oculto">
+                <button class="filtro activo" data-saga="todos">Todos</button>
+                <button class="filtro" data-saga="gta">GTA</button>
+                <button class="filtro" data-saga="rdr">Red Dead</button>
+                <button class="filtro" data-saga="otros">Otros</button>
+            </div>
+
+            <div class="juegos">
+                <div class="juego oculto" data-saga="gta" data-anio="2001" data-genero="Acción, mundo abierto" data-plataformas="PS2, PC, Xbox" data-descripcion="El primer GTA en 3D. Liberty City cambió los juegos de mundo abierto." style="background-image: linear-gradient(160deg, #2f9e6b, #14402c);"><span class="anio">2001</span><h3>Grand Theft Auto III</h3></div>
+                <div class="juego oculto" data-saga="gta" data-anio="2002" data-genero="Acción, mundo abierto" data-plataformas="PS2, PC, Xbox" data-descripcion="Una Miami de los años 80 con neón, música y la historia de Tommy Vercetti." style="background-image: linear-gradient(160deg, #e2457f, #4b1a73);"><span class="anio">2002</span><h3>GTA: Vice City</h3></div>
+                <div class="juego oculto" data-saga="gta" data-anio="2004" data-genero="Acción, mundo abierto" data-plataformas="PS2, PC, Xbox" data-descripcion="Tres ciudades y un mapa enorme. Sigues a Carl CJ Johnson." style="background-image: linear-gradient(160deg, #e08a1e, #6b2d0a);"><span class="anio">2004</span><h3>GTA: San Andreas</h3></div>
+                <div class="juego oculto" data-saga="gta" data-anio="2008" data-genero="Acción, mundo abierto" data-plataformas="PS3, Xbox 360, PC" data-descripcion="Una historia más seria con Niko Bellic en una Liberty City realista." style="background-image: linear-gradient(160deg, #5b7c99, #1c2a38);"><span class="anio">2008</span><h3>Grand Theft Auto IV</h3></div>
+                <div class="juego oculto" data-saga="gta" data-anio="2013" data-genero="Acción, mundo abierto" data-plataformas="PS3, PS4, PS5, Xbox, PC" data-descripcion="Tres protagonistas en Los Santos. Con GTA Online es de los juegos más vendidos de la historia." style="background-image: linear-gradient(160deg, #f2b01e, #b5481a);"><span class="anio">2013</span><h3>Grand Theft Auto V</h3></div>
+                <div class="juego oculto" data-saga="rdr" data-anio="2010" data-genero="Western, mundo abierto" data-plataformas="PS3, Xbox 360" data-descripcion="John Marston busca a su antigua banda en una frontera que desaparece." style="background-image: linear-gradient(160deg, #c2412d, #4a1710);"><span class="anio">2010</span><h3>Red Dead Redemption</h3></div>
+                <div class="juego oculto" data-saga="rdr" data-anio="2018" data-genero="Western, mundo abierto" data-plataformas="PS4, Xbox One, PC" data-descripcion="Arthur Morgan y la banda de Van der Linde, en un mundo lleno de detalle." style="background-image: linear-gradient(160deg, #a8452e, #1f2b3a);"><span class="anio">2018</span><h3>Red Dead Redemption 2</h3></div>
+                <div class="juego oculto" data-saga="otros" data-anio="2012" data-genero="Disparos en tercera persona" data-plataformas="PS3, Xbox 360, PC" data-descripcion="El detective Max Payne trabaja como guardaespaldas en São Paulo." style="background-image: linear-gradient(160deg, #8a8f98, #23262c);"><span class="anio">2012</span><h3>Max Payne 3</h3></div>
+                <div class="juego oculto" data-saga="otros" data-anio="2006" data-genero="Aventura, mundo abierto" data-plataformas="PS2, PC, Wii" data-descripcion="Jimmy Hopkins sobrevive un año en la academia Bullworth." style="background-image: linear-gradient(160deg, #3b82c4, #1b3556);"><span class="anio">2006</span><h3>Bully</h3></div>
+                <div class="juego oculto" data-saga="otros" data-anio="2011" data-genero="Detectives, aventura" data-plataformas="PS3, Xbox 360, PC" data-descripcion="Investiga crímenes en el Los Ángeles de 1947. Publicado por Rockstar." style="background-image: linear-gradient(160deg, #9c8b6a, #2e2a22);"><span class="anio">2011</span><h3>L.A. Noire</h3></div>
+                <div class="juego oculto" data-saga="otros" data-anio="2003" data-genero="Sigilo, terror" data-plataformas="PS2, PC, Xbox" data-descripcion="Un juego de sigilo oscuro y polémico, conocido por su violencia." style="background-image: linear-gradient(160deg, #6b6b4a, #171712);"><span class="anio">2003</span><h3>Manhunt</h3></div>
+            </div>
+
+            <div class="detalle oculto" id="detalle">
+                <h3 id="detalle-titulo">Elige un juego</h3>
+                <p id="detalle-texto">Haz clic en cualquier tarjeta para ver su información aquí.</p>
+                <p id="detalle-datos"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <h3>🎮 Rockstar Wiki</h3>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>

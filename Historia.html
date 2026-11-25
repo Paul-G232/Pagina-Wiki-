@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+
+<header class="barra" id="barra">
+        <h2 class="logo">🎮 Rockstar Wiki</h2>
+        <span class="boton-menu" id="boton-menu">☰</span>
+        <nav class="menu" id="menu">
+            <a href="index.html">Inicio</a>
+            <a href="juegos.html">Juegos</a>
+            <a href="historia.html" class="activo">Historia</a>
+            <a class="boton-contacto" href="index.html#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="seccion pantalla" id="historia">
+            <div class="titulo-seccion oculto">
+                <h2>Historia de Rockstar</h2>
+            </div>
+
+            <div class="linea">
+                <div class="evento oculto"><h3>1998</h3><h4>Nace Rockstar Games</h4><p>Sam Houser, Dan Houser, Terry Donovan y Jamie King la fundan en Nueva York.</p></div>
+                <div class="evento oculto"><h3>2001</h3><h4>Llega GTA III</h4><p>El salto al 3D redefine los juegos de mundo abierto.</p></div>
+                <div class="evento oculto"><h3>2004</h3><h4>GTA: San Andreas</h4><p>Un mapa gigante y mucha libertad. Se vuelve un clásico.</p></div>
+                <div class="evento oculto"><h3>2008</h3><h4>Grand Theft Auto IV</h4><p>Más realismo y una historia dramática.</p></div>
+                <div class="evento oculto"><h3>2010</h3><h4>Red Dead Redemption</h4><p>La saga del oeste se hace famosa en todo el mundo.</p></div>
+                <div class="evento oculto"><h3>2013</h3><h4>GTA V y GTA Online</h4><p>Un lanzamiento récord y un modo online que sigue vivo.</p></div>
+                <div class="evento oculto"><h3>2018</h3><h4>Red Dead Redemption 2</h4><p>Muy elogiado por su historia y su nivel de detalle.</p></div>
+            </div>
+
+            <div class="trivia oculto">
+                <h3>Pon a prueba lo aprendido</h3>
+                <div class="pregunta">
+                    <p>1. ¿En qué año se fundó Rockstar Games?</p>
+                    <button class="opcion" data-ok="no">1995</button>
+                    <button class="opcion" data-ok="si">1998</button>
+                    <button class="opcion" data-ok="no">2001</button>
+                </div>
+                <div class="pregunta">
+                    <p>2. ¿En qué ciudad se fundó la compañía?</p>
+                    <button class="opcion" data-ok="no">Los Ángeles</button>
+                    <button class="opcion" data-ok="no">Edimburgo</button>
+                    <button class="opcion" data-ok="si">Nueva York</button>
+                </div>
+                <div class="pregunta">
+                    <p>3. ¿Qué juego protagoniza Arthur Morgan?</p>
+                    <button class="opcion" data-ok="si">Red Dead Redemption 2</button>
+                    <button class="opcion" data-ok="no">Bully</button>
+                    <button class="opcion" data-ok="no">GTA IV</button>
+                </div>
+                <p class="puntaje" id="puntaje">Aciertos: 0 de 3</p>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <h3>🎮 Rockstar Wiki</h3>
+    </footer>
+
+    <script src="Script.js"></script>
+    
+</body>
+</html>
