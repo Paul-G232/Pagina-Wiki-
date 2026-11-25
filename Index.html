@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockStar Wiki</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+    <header class="barra" id="barra">
+        <h2 class="logo">🎮 Rockstar Wiki</h2>
+        <span class="boton-menu" id="boton-menu">☰</span>
+        <nav class="menu" id="menu">
+            <a href="index.html" class="activo">Inicio</a>
+            <a href="juegos.html">Juegos</a>
+            <a href="historia.html">Historia</a>
+            <a class="boton-contacto" href="index.html#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+            <div class="hero-texto">
+                <span class="etiqueta">Wiki de fans · Videojuegos</span>
+                <h1>Rockstar<br><span class="saga" id="saga">Grand Theft Auto</span></h1>
+                <p>Todo sobre el estudio detrás de GTA, Red Dead Redemption y más. Explora sus juegos y conoce su historia.</p>
+                <a class="boton-principal" href="juegos.html">Ver los juegos</a>
+            </div>
+        </section>
+
+        <section class="seccion" id="numeros">
+            <div class="titulo-seccion oculto">
+                <h2>Rockstar en números</h2>
+            </div>
+            <div class="estadisticas">
+                <div class="dato oculto">
+                    <h3><span class="contador" data-meta="1998">0</span></h3>
+                    <p>año de fundación</p>
+                </div>
+                <div class="dato oculto">
+                    <h3><span class="contador" data-meta="11">0</span></h3>
+                    <p>juegos en esta wiki</p>
+                </div>
+                <div class="dato oculto">
+                    <h3><span class="contador" data-meta="2">0</span></h3>
+                    <p>sagas principales</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="contacto">
+            <div class="oculto">
+                <h2>¿Qué juego quieres ver en la wiki?</h2>
+                <p>Déjanos tu sugerencia.</p>
+            </div>
+            <form class="formulario oculto" id="formulario">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <input type="text" id="correo" placeholder="Tu correo electrónico">
+                <textarea id="mensaje" placeholder="Tu sugerencia" rows="4"></textarea>
+                <button type="submit" class="boton-principal">Enviar</button>
+                <p class="aviso" id="aviso"></p>
+            </form>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <h3>🎮 Rockstar Wiki</h3
+    </footer>
+
+    
+</body>
+</html>
